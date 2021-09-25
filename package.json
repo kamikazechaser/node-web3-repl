@@ -1,0 +1,32 @@
+{
+  "name": "node-web3-repl",
+  "version": "1.0.0",
+  "description": "web3 repl",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kamikazechaser/web3-cli.git"
+  },
+  "bin": {
+    "web3-repl": "index.js"
+  },
+  "keywords": [
+    "web3",
+    "repl",
+    "web3-repl"
+  ],
+  "author": "Mohamed Sohail <mohamedsohailazim@gmail.com>",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/kamikazechaser/web3-console/issues"
+  },
+  "homepage": "https://github.com/kamikazechaser/web3-console#readme",
+  "dependencies": {
+    "await-repl": "^1.0.2",
+    "rangi": "^1.0.2",
+    "web3": "^1.5.3"
+  }
+}
